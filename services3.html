@@ -55,13 +55,13 @@
                             </button>
                         </div>
                         <ul class="menu-ul-burger">
-                            <a class="li-a" href="#promotion">АКЦИИ</a>
-                            <a class="li" href="#news">Новости</a>
-                            <a class="li" href="#about-us">О нас</a>
-                            <a class="li" href="#services">Услуги</a>
-                            <a class="li" href="#equipment">Оборудование</a>
-                            <a class="li" href="#reviews">Отзывы</a>
-                            <a class="li" href="#feedback">Вопросы</a>
+                            <a class="li-a" href="./index.html#promotion">АКЦИИ</a>
+                            <a class="li" href="./index.html#news">Новости</a>
+                            <a class="li" href="./index.html#about-us">О нас</a>
+                            <a class="li" href="./index.html#services">Услуги</a>
+                            <a class="li" href="./index.html#equipment">Оборудование</a>
+                            <a class="li" href="./index.html#reviews">Отзывы</a>
+                            <a class="li" href="./index.html#feedback">Вопросы</a>
                             <a class="li" href="#footer">Контакты</a>
                         </ul>
                     </div>
@@ -334,6 +334,21 @@
         </div>
     </div>
     <script src="./sleid.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const burgerButton = document.getElementById('burger-button');
+            const menuUlBurger = document.querySelector('.menu-ul-burger');
+            const btn1 = document.querySelector('.btn-1');
+            const btn2 = document.querySelector('.btn-2');
+            const menuLinks = document.querySelectorAll('.menu-ul-burger a');
+
+            burgerButton.addEventListener('click', function () {
+                menuUlBurger.classList.toggle('activ');
+                btn1.classList.toggle('nonactive');
+                btn2.classList.toggle('activ-btn');
+            });
+        });
+    </script>
 </body>
 
 </html>
