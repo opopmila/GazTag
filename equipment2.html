@@ -271,6 +271,32 @@
     <script src="./sleid.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
+            const modal = document.getElementById('successModal');
+            const closeBtn = document.querySelector('.close');
+            const openModalBtns = document.querySelectorAll('.openModal');
+            const productInput = document.getElementById('product');
+
+            openModalBtns.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const productName = this.getAttribute('data-product');
+                    productInput.value = productName;
+                    modal.style.display = 'block';
+                });
+            });
+
+            closeBtn.addEventListener('click', function () {
+                modal.style.display = 'none';
+            });
+
+            window.addEventListener('click', function (event) {
+                if (event.target == modal) {
+                    modal.style.display = 'none';
+                }
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
             const burgerButton = document.getElementById('burger-button');
             const menuUlBurger = document.querySelector('.menu-ul-burger');
             const btn1 = document.querySelector('.btn-1');
