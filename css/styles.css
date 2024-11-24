@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0px 15px;
+    max-width: 1550px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.block {
+    margin-bottom: 100px;
+    scroll-margin-top: 5em;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 128px;
+    font-weight: 700;
+}
+
+h6 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* HEADER */
+.header .header-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0px;
+}
+
+.logo-adap,
+.navbar {
+    display: none;
+}
+
+.push-email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000000;
+}
+
+.push-email svg {
+    max-width: 34px;
+    width: 100%;
+}
+
+.email p:hover {
+    color: #0079C2;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000000;
+}
+
+.logo img {
+    max-width: 75px;
+    width: 100%;
+}
+
+.logo .title {
+    font-weight: 900;
+    font-size: 48px;
+    color: #0079C2;
+}
+
+.logo .subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+
+.header-info .bt a {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px 31px;
+    color: #000000;
+    border: 2px solid #0079C2;
+    border-radius: 5px;
+    transition: 0.6s all;
+}
+
+.header-info .bt a:hover {
+    background-color: #0079C2;
+    color: #fff;
+}
+
+/* MENU */
+.menu {
+    background-color: #0079C2;
+    color: #fff;
+    padding: 28px 0px;
+}
+
+.menu .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: clamp(1.125rem, -0.381rem + 3.443vw, 3.75rem);
+    text-decoration: none;
+    padding: 0px;
+}
+
+.li-a,
+.li {
+    text-shadow: 0 0 0 transparent;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s all;
+}
+
+.li:hover {
+    text-shadow: 0 0 1.2px;
+    font-weight: 600;
+}
+
+/* FORM */
+.form {
+    background-color: #0079C2;
+}
+
+.form .container {
+    padding-top: 74px;
+    padding-bottom: 74px;
+    color: #ffffff;
+    max-width: 1083px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 38px;
+}
+
+.form-input input::placeholder {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.form-input input {
+    outline: none;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background-color: #0079C2;
+    color: #ffffff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    transition: 0.3s all;
+}
+
+.form-input input:hover::placeholder,
+.form-input input:focus::placeholder {
+    color: #A8A8A8;
+}
+
+.form-input input:hover,
+.form-input input:focus,
+.form-input input:checked {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.form-input input[type="text"],
+.form-input input[type="tel"] {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+}
+
+
+/* CHECKBOX */
+.custom-checkbox {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.custom-checkbox a {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.checkbox-input {
+    appearance: none;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #0079C2;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    transition: 0.3s all;
+}
+
+.checkbox-input:not(:disabled),
+.checkbox-input:not(:disabled)~* {
+    cursor: pointer;
+}
+
+.checkbox-input:checked::after {
+    width: 30px;
+    height: 30px;
+    transition: 500ms;
+}
+
+
+/* BUTTON */
+.bt_form {
+    margin-top: 12px;
+    padding: 12px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: 0.8s all;
+    border: 2px solid #FFFFFF;
+    max-width: 475px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.bt_form:hover {
+    background-color: #0079C2;
+    color: #ffffff;
+}
+
+
+
+/* FEEDBACK */
+.feedback {
+    background-color: #0079C2;
+}
+
+.fee-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 74px;
+    padding-bottom: 74px;
+    color: #ffffff;
+    max-width: 1214px;
+    width: 100%;
+    margin: auto;
+}
+
+.free-main_text {
+    width: 100%;
+    max-width: 721px;
+}
+
+.fee-input {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 38px;
+    max-width: 721px;
+    width: 100%;
+}
+
+.fee-input input::placeholder,
+.fee-input .free-opros::placeholder {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.fee-input input {
+    outline: none;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background-color: #0079C2;
+    color: #ffffff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    transition: 0.3s all;
+}
+
+.fee-input input:hover::placeholder,
+.fee-input input:focus::placeholder,
+.fee-input .free-opros:hover::placeholder,
+.fee-input .free-opros:focus::placeholder {
+    color: #A8A8A8;
+}
+
+.fee-input input:hover,
+.fee-input input:focus,
+.fee-input input:checked,
+.fee-input .free-opros:hover,
+.fee-input .free-opros:focus {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.fee-input input[type="text"],
+.fee-input input[type="tel"],
+.fee-input .free-opros[name="opros"] {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.fee-input .free-opros {
+    margin: 0;
+    resize: none;
+    outline: none;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background-color: #0079C2;
+    color: #ffffff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    transition: 0.3s all;
+    height: 90px;
+}
+
+.custom-checkbox input {
+    display: none;
+}
+
+.custom-checkbox label {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid white;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    /* Добавляем курсор для указания, что это кликабельный элемент */
+}
+
+.custom-checkbox label::before {
+    position: absolute;
+    transition: all 0.2s ease-in;
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-radius: 100px;
+    inset: 0;
+    opacity: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 18%;
+}
+
+.custom-checkbox input:checked+label::before {
+    opacity: 1;
+}
+
+.swiper {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #005283;
+    color: #D9D9D9;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 162px;
+}
+
+.footer-main {
+    padding-top: 71px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    grid-auto-flow: dense;
+}
+
+.footer-main> :nth-child(4) {
+    grid-column: 4 / 5;
+}
+
+@media (max-width: 1000px) {
+    .footer-main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-main> :nth-child(4) {
+        grid-column: 3 / 4;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer-main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-main> :nth-child(4) {
+        grid-column: unset;
+    }
+}
+
+.ft-logo {
+    max-width: 118px;
+    width: 100%;
+}
+
+.ft-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ft-menu-li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+.ft-menu-li img {
+    max-width: 23px;
+    width: 100%;
+}
+
+.ft-menu-li a {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ft-menu-li .ft-menu-contact {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-copirater {
+    padding-bottom: 30px;
+}

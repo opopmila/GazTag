@@ -1,0 +1,550 @@
+@media(max-width:1450px) {
+    .cards-new {
+        display: flex;
+        gap: 72px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: thin;
+        scrollbar-color: #D9D9D9 #ffffff;
+    }
+
+    .cards-new::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    .cards-new::-webkit-scrollbar-thumb {
+        background-color: #D9D9D9;
+        border-radius: 10px;
+    }
+
+    .cards-new::-webkit-scrollbar-track {
+        background: #ffffff;
+    }
+
+    .ab_text h4 {
+        max-width: 637px;
+        width: 100%;
+    }
+
+    .cm-main .cm-text {
+        max-width: 649px;
+        width: 100%;
+    }
+
+    .cm-main .cm-img {
+        max-width: 506px;
+        width: 100%;
+    }
+
+    .card-services .cd_serv {
+        max-width: 610px;
+        width: 100%;
+    }
+
+    .card-services .cd_serv .serv-img {
+        max-width: 263px;
+        width: 100%;
+    }
+
+    .eqmnt-cards .eqmnt-cd {
+        max-width: 400px;
+        height: 320px;
+    }
+}
+
+@media(max-width:1030px) {
+    .st_text h2 {
+        max-width: 551px;
+        width: 100%;
+    }
+
+    .stocks-all-info .st_text .offers .offer h2 {
+        max-width: 433px;
+        width: 100%;
+    }
+
+    .stocks-all-info .st-img {
+        top: 130px;
+    }
+
+    .stocks-all-info .st-img img {
+        max-width: 455px;
+        width: 100%;
+    }
+
+    .news {
+        margin-top: 186px;
+    }
+
+    .cards-new {
+        margin-left: 77px;
+    }
+
+    .about-us .container h3 {
+        padding-bottom: 85px;
+    }
+
+    .ab_text h4 {
+        max-width: 472px;
+        width: 100%;
+    }
+
+    .comand .container h3 {
+        padding-bottom: 35px;
+    }
+
+    .cm-main .cm-text {
+        max-width: 329px;
+        width: 100%;
+    }
+
+    .cm-main .cm-text .cm_numbers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card-services .cd_serv {
+        max-width: 453px;
+        width: 100%;
+    }
+
+    .equipment .container .equment-cards {
+        max-width: 955px;
+        gap: 20px;
+    }
+
+    .eqmnt-cards {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 20px;
+    }
+
+    .eqmnt-cards .eqmnt-cd {
+        max-width: 455px;
+        width: 100%;
+        height: auto;
+    }
+
+    .eqmnt-cards .eqmnt-cd img {
+        max-width: 298px;
+        padding: 30px 74px 0px 74px;
+    }
+
+    .eqmnt-cards .eqmnt-cd h6 {
+        padding-left: 29px;
+        padding-bottom: 29px;
+    }
+
+    .eqmnt-cards2 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 20px;
+    }
+
+    .eqmnt-cards2 .eqmnt-cd {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        max-width: 455px;
+        width: 100%;
+        height: auto;
+    }
+
+    .eqmnt-cards2 .eqmnt-cd img {
+        max-width: 298px;
+        padding: 30px 74px 0px 74px;
+    }
+
+    .eqmnt-cards2 .eqmnt-cd h6 {
+        padding-left: 29px;
+        padding-bottom: 29px;
+    }
+
+    .swiper-wrapper {
+        padding-left: 0px;
+    }
+
+    .box {
+        max-width: 851px;
+    }
+}
+
+@media(max-width:770px) {
+    .stocks-all-info {
+        margin-top: 45px;
+    }
+
+    .st_text h2 {
+        max-width: 499px;
+        width: 100%;
+    }
+
+    .stocks-all-info .st_text .offers .offer h2 {
+        max-width: 359px;
+        width: 100%;
+    }
+
+    .stocks-all-info .st-img {
+        top: 55px;
+        right: -40px;
+    }
+
+    .stocks-all-info .st-img img {
+        max-width: 349px;
+        width: 100%;
+    }
+
+    .bt_st a {
+        font-size: 16px;
+        padding: 20px 83px;
+    }
+
+    .news {
+        margin-top: 123px;
+    }
+
+    .cards-new {
+        margin-left: 0px;
+        gap: 10px;
+    }
+
+    .card_new img {
+        max-width: 281px;
+        width: 100%;
+    }
+
+    .card_new p {
+        max-width: 281px;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .card_new .bt_nw {
+        margin-top: 34px;
+    }
+
+    .card_new .bt_nw a {
+        font-size: 13px;
+        padding: 12px 109px;
+    }
+
+    .ab_text h4 {
+        max-width: 335px;
+        width: 100%;
+    }
+
+    .ab_text img {
+        max-width: 249px;
+        width: 100%;
+    }
+
+    .cm-main .cm-text {
+        max-width: 267px;
+        width: 100%;
+    }
+
+    .cm-main .cm-img {
+        max-width: 376px;
+        width: 100%;
+    }
+
+    .serv-main .serv-txt {
+        max-width: 290px;
+        width: 100%;
+        gap: 14px;
+    }
+
+    .serv-main .serv-txt p {
+        font-size: 14px;
+    }
+
+    .serv-main .bt_serv a {
+        font-size: 14px;
+        padding: 12px 109px;
+    }
+
+    .swiper-slide .rew-cd {
+        gap: 20px;
+        max-width: 270px;
+        width: 100%;
+        height: 150px;
+    }
+
+    .box {
+        padding: 23px 30px;
+        max-width: 608px;
+    }
+}
+
+@media(max-width:430px) {
+    .stocks-all-info {
+        margin-top: 20px;
+    }
+
+    .st_text h2 {
+        max-width: 225px;
+        width: 100%;
+    }
+
+    .stocks-all-info .st_text .offers {
+        max-width: 225px;
+        width: 100%;
+    }
+
+    .stocks-all-info .st_text .bt_st {
+        margin-top: 11px;
+    }
+
+    .bt_st a {
+        font-size: 14px;
+        padding: 12px 65px;
+    }
+
+    .stocks-all-info .st-img {
+        top: 215px;
+        right: -5px;
+    }
+
+    .stocks-all-info .st-img img {
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .news {
+        margin-top: 62px;
+    }
+
+    .news .container h3,
+    .about-us .container h3,
+    .comand .container h3,
+    .services .container h3,
+    .equipment .container h3,
+    .reviews .container h3,
+    .questions .container h3 {
+        padding-bottom: 40px;
+    }
+
+    .ab_text {
+        flex-direction: column;
+    }
+
+    .ab_text img {
+        max-width: 168px;
+        width: 100%;
+    }
+
+    .cm-main {
+        display: unset;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .cm-main .cm-text {
+        max-width: 218px;
+        width: 100%;
+        gap: 17px;
+    }
+
+    .cm-main .cm-text .cm_numbers {
+        gap: 0;
+    }
+
+    .cm-main .cm-img {
+        z-index: -2;
+        max-width: 267px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: -18%;
+    }
+
+    .serv-main .bt_serv a {
+        padding: 12px 80px;
+    }
+
+    .eqmnt-cards .eqmnt-cd img {
+        max-width: 298px;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .eqmnt-cards2 .eqmnt-cd img {
+        max-width: 298px;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .box {
+        padding: 15px 20px;
+        max-width: 340px;
+    }
+
+    .box .js-doggel img {
+        max-width: 22px;
+    }
+
+    .doggel-container p {
+        padding-top: 15px;
+    }
+
+}
+
+@media(max-width:380px) {
+    .stocks-all-info .st-img {
+        top: 130px;
+        right: -30px;
+    }
+
+    .stocks-all-info .st-img img {
+        max-width: 220px;
+        width: 100%;
+    }
+
+    .card_new .bt_nw {
+        margin-top: 0px;
+    }
+
+    .cm-text h4 {
+        max-width: 155px;
+    }
+
+    .cm-main .cm-img {
+        top: 45px;
+        right: -23%;
+    }
+
+    .eqmnt-cards .eqmnt-cd {
+        max-width: 345px;
+    }
+
+    .swiper-slide .rew-cd {
+        gap: 20px;
+        max-width: 200px;
+        width: 100%;
+        height: 130px;
+    }
+
+    .box {
+        padding: 15px 20px;
+        max-width: 295px;
+    }
+
+}
+
+@media (max-width:330px) {
+
+    .news .container h3,
+    .about-us .container h3,
+    .comand .container h3,
+    .services .container h3,
+    .equipment .container h3,
+    .reviews .container h3,
+    .questions .container h3 {
+        padding-bottom: 30px;
+    }
+
+    .bt_st a {
+        font-size: 14px;
+        padding: 12px 45px;
+    }
+
+    .stocks-all-info .st-img {
+        top: 175px;
+        right: -50px;
+    }
+
+    .stocks-all-info .st-img img {
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .news {
+        margin-bottom: 40px;
+    }
+
+    .card_new {
+        gap: 20px;
+        padding: 30px 20px;
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .card_new img {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .card_new p {
+        max-width: 250px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .card_new .bt_nw a {
+        font-size: 13px;
+        padding: 12px 80px;
+    }
+
+    .ab_text {
+        gap: 30px;
+    }
+
+    .cm-main .cm-img {
+        max-width: 187px;
+        top: 152px;
+        right: -17%;
+    }
+
+    .card-services .cd_serv {
+        max-width: 290px;
+        width: 100%;
+    }
+
+    .card-services .cd_serv .serv-main {
+        padding: 20px 0px 30px 20px;
+        gap: 60px;
+    }
+
+    .card-services .cd_serv .serv-img {
+        display: none;
+        position: relative;
+        right: 1%;
+        max-width: 190px;
+        width: 100%;
+    }
+
+    .eqmnt-cards .eqmnt-cd {
+        max-width: 290px;
+    }
+
+    .eqmnt-cards2 .eqmnt-cd {
+        max-width: 290px;
+        width: 100%;
+    }
+
+    .eqmnt-cards2 .eqmnt-cd img {
+        max-width: 245px;
+        width: 100%;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .swiper-slide .rew-cd {
+        padding: 15px;
+        gap: 20px;
+        max-width: 190px;
+        width: 100%;
+        height: 140px;
+    }
+
+    .box {
+        padding: 15px 20px;
+        max-width: 250px;
+    }
+
+    .box .js-doggel p {
+        max-width: 200px;
+    }
+
+}

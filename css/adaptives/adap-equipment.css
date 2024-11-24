@@ -1,0 +1,10 @@
+ @media(max-width:940px) {
+     .equipment .container .equipment-cards {
+         grid-template-columns: repeat(2, 1fr);
+     }
+ }
+ @media(max-width:600px) {
+    .equipment .container .equipment-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

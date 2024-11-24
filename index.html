@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/index-html.css">
+    <link rel="stylesheet" type="text/css" href="./css/adaptives/adap-style.css">
+    <link rel="stylesheet" type="text/css" href="./css/adaptives/adap-html.css">
+    <link rel="stylesheet" type="text/css" href="./css/modal.css">
+    <link type="image/x-icon" rel="shortcut icon" href="./img/fire_z39vox3x9kl5 1.svg">
+    <title>ГазТек - газовое оборудование / главная</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo-adap">
+                <a href="./index.html">
+                    <div class="logo">
+                        <img src="./img/fire_z39vox3x9kl5 1.svg" alt="">
+                        <div class="logo-text">
+                            <p class="title">ГАЗТЕК</p>
+                            <p class="subtitle">газовое оборудование</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="header-info">
+                <div class="adapt-class-head">
+                    <div class="burger-menu">
+                        <div class="burger-logo">
+                            <button id="burger-button">
+                                <span class="btn-1">
+                                    <svg width="25" height="17" viewBox="0 0 25 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M25 14.0555H0V16.8333H25V14.0555Z" fill="#0079C2" />
+                                        <path d="M25 7.11113H0V9.88893H25V7.11113Z" fill="#0079C2" />
+                                        <path d="M25 0.166664H0V2.94446H25V0.166664Z" fill="#0079C2" />
+                                    </svg>
+                                </span>
+                                <span class="btn-2 nonactive "><svg width="25" height="15" viewBox="0 0 25 15"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22.6506 0L1 12.5L2.3889 14.9056L24.0395 2.40564L22.6506 0Z"
+                                            fill="white" />
+                                        <path d="M24.0198 12.5L2.36914 0L0.980241 2.40564L22.6309 14.9056L24.0198 12.5Z"
+                                            fill="white" />
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                        <ul class="menu-ul-burger">
+                            <a class="li-a" href="#promotion">АКЦИИ</a>
+                            <a class="li" href="#news">Новости</a>
+                            <a class="li" href="#about-us">О нас</a>
+                            <a class="li" href="#services">Услуги</a>
+                            <a class="li" href="#equipment">Оборудование</a>
+                            <a class="li" href="#reviews">Отзывы</a>
+                            <a class="li" href="#feedback">Вопросы</a>
+                            <a class="li" href="#footer">Контакты</a>
+                        </ul>
+                    </div>
+                    <a href="#form" class="email">
+                        <div class="push-email">
+                            <svg width="47" height="47" viewBox="0 0 47 47" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2.47368" y="8.65796" width="40.8158" height="28.4474" fill="white" />
+                                <path
+                                    d="M45.5313 9.06957C45.507 8.69682 45.3416 8.34732 45.0687 8.09219C44.7959 7.83707 44.436 7.6955 44.0625 7.69629H2.9375C2.54796 7.69629 2.17438 7.85104 1.89894 8.12648C1.62349 8.40192 1.46875 8.77551 1.46875 9.16504V37.8057C1.46875 38.1952 1.62349 38.5688 1.89894 38.8442C2.17438 39.1197 2.54796 39.2744 2.9375 39.2744H44.0625C44.452 39.2744 44.8256 39.1197 45.1011 38.8442C45.3765 38.5688 45.5313 38.1952 45.5313 37.8057V9.16504C45.5313 9.12832 45.5313 9.09895 45.5313 9.06957ZM38.9219 10.6338L23.5 20.1807L8.07813 10.6338H38.9219ZM4.40625 36.3369V11.8088L22.7216 23.1843C22.955 23.3302 23.2247 23.4075 23.5 23.4075C23.7753 23.4075 24.045 23.3302 24.2784 23.1843L42.5938 11.8088V36.3663L4.40625 36.3369Z"
+                                    fill="#0079C2" />
+                            </svg>
+                            <p>Свяжитесь c нами</p>
+                        </div>
+                    </a>
+                </div>
+                <a href="./index.html">
+                    <div class="logo">
+                        <img src="./img/fire_z39vox3x9kl5 1.svg" alt="">
+                        <div class="logo-text">
+                            <p class="title">ГАЗТЕК</p>
+                            <p class="subtitle">газовое оборудование</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="bt">
+                    <a href="#" id="openModal1">Оформить заказ</a>
+                </div>
+                <!-- Модальное окно 1 -->
+                <div id="successModal1" class="modal-zakaz">
+                    <div class="modal-container">
+                        <div class="modal-title">
+                            <h6>Оформить заказ</h6>
+                            <span class="close">&times;</span>
+                        </div>
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <div class="form-input">
+                                <input type="hidden" name="access_key" value="30cdb6dd-6a52-47f4-a020-e3b46b8f563e">
+                                <input type="text" id="name" name="name" minlength="1" maxlength="20" size="10" required
+                                    placeholder="Введите ваше имя*">
+                                <input type="tel" id="phone" name="phone" minlength="4" maxlength="12" size="10"
+                                    required placeholder="Введите ваш телефон*">
+                                <div class="custom-checkbox">
+                                    <input class="checkbox-input" type="checkbox" id="checkbox" name="return">
+                                    <label class="custom-checkbox_1" for="checkbox">
+                                    </label>
+                                    <p>Я даю согласие на обработку <a href="./confidence.html">персональных данных</a></p>
+                                </div>
+                                <button class="bt_form" type="submit">
+                                    Отправить
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="container">
+            <ul class="menu-ul">
+                <a class="li-a" href="#promotion">АКЦИИ</a>
+                <a class="li" href="#news">Новости</a>
+                <a class="li" href="#about-us">О нас</a>
+                <a class="li" href="#services">Услуги</a>
+                <a class="li" href="#equipment">Оборудование</a>
+                <a class="li" href="#reviews">Отзывы</a>
+                <a class="li" href="#feedback">Вопросы</a>
+                <a class="li" href="#footer">Контакты</a>
+            </ul>
+        </div>
+    </div>
+    <div class="stocks" id="promotion">
+        <div class="container">
+            <div class="stocks-all-info">
+                <div class="st_text">
+                    <h1><span style="color: #0079C2;">Зимние холода</span> не страшны! Подготовьтесь к сезону <span
+                            style="color: #0079C2;">с выгодой!</span></h1>
+                    <h2>С 31 октября по 1 декабря на нашем сайте "ГазТек" действуют специальные скидки на весь
+                        ассортимент
+                        оборудования для отопления!</h2>
+                    <div class="offers">
+                        <h2>Вас ждёт:</h2>
+                        <div class="offer">
+                            <img src="./img/tick_vlltchoso6eq 1.svg" alt="">
+                            <h2>Скидка до 20% на газовые котлы, радиаторы и комплектующие</h2>
+                        </div>
+                        <div class="offer">
+                            <img src="./img/tick_vlltchoso6eq 1.svg" alt="">
+                            <h2>Бесплатная доставка при заказе от 15,000 рублей</h2>
+                        </div>
+                        <div class="offer">
+                            <img src="./img/tick_vlltchoso6eq 1.svg" alt="">
+                            <h2>Консультации специалистов по выбору оборудования — бесплатно!</h2>
+                        </div>
+                    </div>
+                    <div class="bt_st">
+                        <a href="#form">Записаться на консультацию</a>
+                    </div>
+                </div>
+                <div class="st-img">
+                    <img src="./img/man_elops.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="news" id="news">
+        <div class="container">
+            <h3>Новости</h3>
+            <div class="cards-new">
+                <div class="card_new">
+                    <img src="./img/image_new1.png" alt="">
+                    <p>Новые стандарты безопасности в газовом оборудовании</p>
+                    <div class="bt_nw">
+                        <a href="./new.html">Подробнее</a>
+                    </div>
+                </div>
+                <div class="card_new">
+                    <img src="./img/image_new2.png" alt="">
+                    <p>Инновации в сфере газовых котлов</p>
+                    <div class="bt_nw">
+                        <a href="./new.html">Подробнее</a>
+                    </div>
+                </div>
+                <div class="card_new">
+                    <img src="./img/image_new3.png" alt="">
+                    <p>Экологические инициативы в газовой отрасли</p>
+                    <div class="bt_nw">
+                        <a href="./new.html">Подробнее</a>
+                    </div>
+                </div>
+                <div class="card_new">
+                    <img src="./img/image_new4.png" alt="">
+                    <p>Рынок газового оборудования: тенденции и прогнозы</p>
+                    <div class="bt_nw">
+                        <a href="./new.html">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-us block" id="about-us">
+        <div class="container">
+            <h3>О нас</h3>
+            <div class="ab_text">
+                <h4>Мы — команда профессионалов, специализирующаяся на продаже и обслуживании газового оборудования.
+                    Наша цель — обеспечить наших клиентов надежными и эффективными решениями для отопления и
+                    горячего
+                    водоснабжения. Мы предлагаем широкий ассортимент продукции от ведущих производителей, гарантируя
+                    высокое качество и безопасность. Мы стремимся к инновациям и постоянному совершенствованию,
+                    чтобы
+                    удовлетворить потребности наших клиентов и способствовать устойчивому развитию энергетической
+                    отрасли.</h4>
+                <img src="./img/logo-max.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="comand block">
+        <div class="container">
+            <h3>Команда</h3>
+            <div class="cm-main">
+                <div class="cm-text">
+                    <div class="cm_numbers">
+                        <div class="num-s">
+                            <h5>23</h5>
+                            <h4>штата</h4>
+                        </div>
+                        <div class="num-s">
+                            <h5>50</h5>
+                            <h4>регионов</h4>
+                        </div>
+                        <div class="num-s">
+                            <h5>+200</h5>
+                            <h4>профессионалов</h4>
+                        </div>
+                    </div>
+                    <h4>Мы стремимся к постоянному развитию и обучению, чтобы предоставлять нашим клиентам только
+                        лучшие услуги.</h4>
+                </div>
+                <div class="cm-img">
+                    <img src="./img/comand-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services block" id="services">
+        <div class="container">
+            <h3>Услуги</h3>
+            <div class="card-services">
+                <div class="cd_serv">
+                    <div class="serv-main">
+                        <div class="serv-txt">
+                            <h6>Проектирование котельных</h6>
+                            <p>Проектирование, строительство котельных под ключ</p>
+                        </div>
+                        <div class="bt_serv">
+                            <a href="./services1.html">Подробнее</a>
+                        </div>
+                    </div>
+                    <img src="./img/boiler-houses.svg" alt="" class="serv-img">
+                </div>
+                <div class="cd_serv">
+                    <div class="serv-main">
+                        <div class="serv-txt">
+                            <h6>Строительство котельных</h6>
+                            <p>ГазТек проводит проектирование, строительство и монтаж котельных в Российской
+                                Федерации и
+                                СНГ</p>
+                        </div>
+                        <div class="bt_serv">
+                            <a href="./services2.html">Подробнее</a>
+                        </div>
+                    </div>
+                    <img src="./img/abuh83rkgzz06raxtp1xg9i29qbdnv4u 1.svg" alt="" class="serv-img">
+                </div>
+                <div class="cd_serv">
+                    <div class="serv-main">
+                        <div class="serv-txt">
+                            <h6>Пусконаладочные работы</h6>
+                            <p>Работы на объекте при вводе в эксплуатацию</p>
+                        </div>
+                        <div class="bt_serv">
+                            <a href="./services3.html">Подробнее</a>
+                        </div>
+                    </div>
+                    <img src="./img/re6tsxmd54eg1i92sdycmqwtn65x1a35 1.svg" alt="" class="serv-img">
+                </div>
+                <div class="cd_serv">
+                    <div class="serv-main">
+                        <div class="serv-txt">
+                            <h6>Обслуживание и автоматизация</h6>
+                            <p>Испытания, ввод в эксплуатацию</p>
+                        </div>
+                        <div class="bt_serv">
+                            <a href="./services4.html">Подробнее</a>
+                        </div>
+                    </div>
+                    <img src="./img/5nkjyg8eyi5dnmauqqmcbrj1jvp4lhkc 1.svg" alt="" class="serv-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form block" id="form">
+        <div class="container">
+            <h6>Оставить заявку</h6>
+            <div class="form-main">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <div class="form-input">
+                        <input type="hidden" name="access_key" value="30cdb6dd-6a52-47f4-a020-e3b46b8f563e">
+                        <input type="text" id="name" name="name" minlength="1" maxlength="20" size="10" required
+                            placeholder="Введите ваше имя*">
+                        <input type="tel" id="phone" name="phone" minlength="4" maxlength="12" size="10" required
+                            placeholder="Введите ваш телефон*">
+                        <div class="custom-checkbox">
+                            <input class="checkbox-input" type="checkbox" id="checkbox1" name="return">
+                            <label class="custom-checkbox_1" for="checkbox1"></label>
+                            <p>Я даю согласие на обработку <a href="./confidence.html">персональных данных</a></p>
+                        </div>
+                        <button class="bt_form" type="submit">Отправить</button>
+                    </div>
+                </form>
+                <img src="./img/logo-form.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="equipment block" id="equipment">
+        <div class="container">
+            <h3>Оборудование</h3>
+            <div class="equment-cards">
+                <div class="eqmnt-cards">
+                    <a href="./equipment1.html">
+                        <div class="eqmnt-cd">
+                            <img src="./img/equipment/gaz-kotls.svg" alt="">
+                            <h6>Газовые котлы</h6>
+                        </div>
+                    </a>
+                    <a href="./equipment2.html">
+                        <div class="eqmnt-cd">
+                            <img src="./img/equipment/technika.svg" alt="">
+                            <h6>Встраиваемая техника</h6>
+                        </div>
+                    </a>
+                    <a href="./equipment3.html">
+                        <div class="eqmnt-cd">
+                            <img src="./img/equipment/vitazka.svg" alt="">
+                            <h6>Вытяжки</h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="eqmnt-cards2">
+                    <a href="./equipment4.html">
+                        <div class="eqmnt-cd">
+                            <h6>Газовые плиты</h6>
+                            <img src="./img/equipment/gaz-plita.svg" alt="">
+                        </div>
+                    </a>
+                    <a href="./equipment5.html">
+                        <div class="eqmnt-cd">
+                            <h6>Счетчики газа</h6>
+                            <img src="./img/equipment/chetchik-gaz.svg" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="reviews block" id="reviews">
+        <div class="container">
+            <h3>Отзывы</h3>
+            <div class="swiper reviewss">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="rew-cd">
+                            <h6>Анна П.</h6>
+                            <p>Покупала газовую плиту на этом сайте, и осталась очень довольна! Быстрая доставка и
+                                отличное качество. Рекомендую всем!</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rew-cd">
+                            <h6>Игорь С.</h6>
+                            <p>Установил газовый котел, и он работает без сбоев уже несколько месяцев.
+                                Профессиональные
+                                консультации и помощь в выборе оборудования сделали процесс простым и приятным.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rew-cd">
+                            <h6>Елена К.</h6>
+                            <p>Обратилась за помощью в подборе газового оборудования для дачи. Менеджеры были очень
+                                вежливыми и компетентными. Спасибо за отличный сервис!</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rew-cd">
+                            <h6>Дмитрий Л.</h6>
+                            <p>Заказал газовую плиту — все пришло в срок, без повреждений. Хорошая цена и
+                                качественное обслуживание. Буду заказывать снова!</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rew-cd">
+                            <h6>Олег П.</h6>
+                            <p>Купил газовую колонку на этом сайте. Отличное качество по разумной цене! Установка
+                                прошла без проблем, а сервис на высшем уровне. Очень доволен покупкой</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rew-cd">
+                            <h6>Вероника А.</h6>
+                            <p>Обратилась в компанию за помощью в выборе газового обогревателя. Специалисты
+                                оказались очень компетентными и помогли подобрать идеальный вариант для моего дома.
+                                Теперь у нас всегда тепло!</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rew-cd">
+                            <h6>Петр В.</h6>
+                            <p>Пользуюсь газовой плитой уже несколько месяцев, и могу сказать, что это лучшее
+                                решение для моей кухни. Удобно, быстро и экономично. Спасибо за профессиональную
+                                консультацию!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+    <div class="questions block" id="questions">
+        <div class="container">
+            <h3>Вопросы</h3>
+            <div class="slide-doggel">
+                <div class="box">
+                    <div class="js-doggel" data-container="doggel-1">
+                        <p>Как выбрать подходящее газовое оборудование для моего дома?</p>
+                        <img src="./img/arrow.svg" alt="">
+                    </div>
+                    <div class="doggel-container" id="doggel-1">
+                        <p>Важно учитывать размер помещения, тип используемого газа и ваши потребности в отоплении
+                            или
+                            приготовлении пищи.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="js-doggel" data-container="doggel-2">
+                        <p>Какие документы нужны для установки газового оборудования?</p>
+                        <img src="./img/arrow.svg" alt="">
+                    </div>
+                    <div class="doggel-container" id="doggel-2">
+                        <p>Обычно требуется проектная документация, разрешение на установку и акт о соответствии.
+                            Рекомендуем проконсультироваться с местными органами.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="js-doggel" data-container="doggel-3">
+                        <p>Как часто нужно проводить обслуживание газового оборудования?</p>
+                        <img src="./img/arrow.svg" alt="">
+                    </div>
+                    <div class="doggel-container" id="doggel-3">
+                        <p>Рекомендуется проводить техническое обслуживание не реже одного раза в год, чтобы
+                            обеспечить
+                            безопасность и эффективность работы.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="js-doggel" data-container="doggel-4">
+                        <p>Что делать, если я почувствовал запах газа?</p>
+                        <img src="./img/arrow.svg" alt="">
+                    </div>
+                    <div class="doggel-container" id="doggel-4">
+                        <p>Немедленно закройте газовый кран, проветрите помещение и покиньте его. Позвоните в
+                            аварийную
+                            службу или газовую компанию.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="js-doggel" data-container="doggel-5">
+                        <p>Можно ли установить газовое оборудование самостоятельно?</p>
+                        <img src="./img/arrow.svg" alt="">
+                    </div>
+                    <div class="doggel-container" id="doggel-5">
+                        <p>Установка газового оборудования требует профессиональных навыков и соблюдения норм
+                            безопасности. Рекомендуем обращаться к сертифицированным специалистам.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="js-doggel" data-container="doggel-6">
+                        <p>Какой срок службы газового оборудования?</p>
+                        <img src="./img/arrow.svg" alt="">
+                    </div>
+                    <div class="doggel-container" id="doggel-6">
+                        <p>Срок службы зависит от типа оборудования и условий эксплуатации, но в среднем составляет
+                            от
+                            10 до 20 лет. Регулярное обслуживание может продлить срок службы.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="feedback block" id="feedback">
+        <div class="container">
+            <div class="fee-main">
+                <div class="free-main_text">
+                    <h6>Остались вопросы напишите в нашу поддержку</h6>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <div class="fee-input">
+                            <input type="hidden" name="access_key" value="30cdb6dd-6a52-47f4-a020-e3b46b8f563e">
+                            <input type="text" id="name" name="name" minlength="1" maxlength="20" size="10" required
+                                placeholder="Введите ваше имя*">
+                            <input type="tel" id="phone" name="phone" minlength="4" maxlength="12" size="10" required
+                                placeholder="Введите ваш телефон*">
+                            <textarea class="free-opros" name="message" id="opros" cols="30" rows="10"
+                                placeholder="Введите ваш вопрос*" required></textarea>
+                            <div class="custom-checkbox">
+                                <input class="checkbox-input" type="checkbox" id="checkbox2" name="return">
+                                <label class="custom-checkbox_1" for="checkbox2"></label>
+                                <p>Я даю согласие на обработку <a href="./confidence.html">персональных данных</a></p>
+                            </div>
+                            <button class="bt_form" type="submit">Отправить</button>
+
+                            <div id="successModal4" class="modal">
+                                <div class="modal-content">
+                                    <p>Форма успешно отправлена!</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <img src="./img/manager.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="footer-main">
+                <a href="./index.html">
+                    <div class="ft-logo">
+                        <img src="./img/logo-footer.svg" alt="">
+                    </div>
+                </a>
+                <div class="ft-menu">
+                    <h6>Информация</h6>
+                    <ul class="ft-menu-li">
+                        <a class="li" href="./index.html#promotion">АКЦИИ</a>
+                        <a class="li" href="./index.html#news">Новости</a>
+                        <a class="li" href="./index.html#about-us">О нас</a>
+                        <a class="li" href="./index.html#services">Услуги</a>
+                        <a class="li" href="./index.html#equipment">Оборудование</a>
+                        <a class="li" href="./index.html#reviews">Отзывы</a>
+                        <a class="li" href="./index.html#questions">Вопросы</a>
+                    </ul>
+                </div>
+                <div class="ft-menu">
+                    <h6>Католог</h6>
+                    <ul class="ft-menu-li">
+                        <a class="li" href="./equipment1.html">Газовые котлы</a>
+                        <a class="li" href="./equipment2.html">Встраиваемая техника</a>
+                        <a class="li" href="./equipment3.html">Вытяжки</a>
+                        <a class="li" href="./equipment4.html">Газовые плиты</a>
+                        <a class="li" href="./equipment5.html">Счетчики газа</a>
+                    </ul>
+                </div>
+                <div class="ft-menu">
+                    <h6>Обратная связь</h6>
+                    <ul class="ft-menu-li">
+                        <div class="ft-menu-contact">
+                            <img src="./img/telephone_auricular_laqksh30nanc 1.svg" alt=""><a class="li"
+                                href="tel:89005502535">8 900 550 25 35</a>
+                        </div>
+                        <div class="ft-menu-contact">
+                            <img src="./img/new_email_filled_closed_envelope_back_kysgkdizsama (1).svg" alt=""><a
+                                class="li" href="mailto:gaztegoff@mail.ru">gaztegoff@mail.ru</a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copirater">
+                <p>АО «ГазТек» © 2024, Все права защищены</p>
+            </div>
+        </div>
+    </div>
+    <script src="./sleid.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const burgerButton = document.getElementById('burger-button');
+            const menuUlBurger = document.querySelector('.menu-ul-burger');
+            const btn1 = document.querySelector('.btn-1');
+            const btn2 = document.querySelector('.btn-2');
+            const menuLinks = document.querySelectorAll('.menu-ul-burger a');
+
+            burgerButton.addEventListener('click', function () {
+                menuUlBurger.classList.toggle('activ');
+                btn1.classList.toggle('nonactive');
+                btn2.classList.toggle('activ-btn');
+            });
+
+            menuLinks.forEach(link => {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                    }
+
+                    menuUlBurger.classList.remove('activ');
+                    btn1.classList.remove('nonactive');
+                    btn2.classList.remove('activ-btn');
+                });
+            });
+        });
+        document.getElementById('checkbox1').addEventListener('change', function () {
+            var checkbox = this;
+            var submitButton = document.getElementById('submitButton');
+            submitButton.disabled = !checkbox.checked;
+        });
+    </script>
+</body>
+
+</html>
+
